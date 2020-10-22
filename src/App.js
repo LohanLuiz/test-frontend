@@ -5,8 +5,8 @@ import Header from './components/Header';
 export default function App() {
   return (
     <>
-    <Header />
-    <Header />
+    <Header title="Homepage"/>
+    <Header title="Projects"/>
     </>
   );
 }
