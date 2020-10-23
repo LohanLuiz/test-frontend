@@ -5,7 +5,7 @@ import Header from './components/Header';
 export default function App() {
   return (
     <>
-    <Header title="Homepage"/>
+    <Header title="GoStack"/>
     <Header title="Projects"/>
     </>
   );
