@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import api from './services/api';
 
 import './App.css';
-import backgroundImage from './assets/background.jpg';
 
 import Header from './components/Header';
 
@@ -18,8 +18,6 @@ export default function App() {
   return (
     <>
     <Header title="Rocketseat" />
-
-    <img width={200} src={backgroundImage} alt="Logo"/>
 
     <ul>
       {projects.map(project => <li key={project}>{project}</li>)}
